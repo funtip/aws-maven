@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.springframework.build</groupId>
+	<groupId>net.funtip.build</groupId>
 	<artifactId>aws-maven</artifactId>
 	<packaging>jar</packaging>
 	<version>5.1.0.BUILD-SNAPSHOT</version>
@@ -120,7 +120,7 @@
 		</plugins>
 	</build>
 
-	<url>https://github.com/spring-projects/aws-maven</url>
+	<url>https://github.com/funtip/aws-maven</url>
 
 	<inceptionYear>2007</inceptionYear>
 
@@ -133,13 +133,13 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:https://github.com/spring-projects/aws-maven.git</connection>
-		<url>https://github.com/spring-projects/aws-maven</url>
+		<connection>scm:git:https://github.com/funtip/aws-maven.git</connection>
+		<url>https://github.com/funtip/aws-maven</url>
 	</scm>
 
 	<organization>
-		<name>Spring Framework</name>
-		<url>http://spring.io</url>
+		<name>funtip</name>
+		<url>http://funtip.net</url>
 	</organization>
 
 	<ciManagement>
@@ -149,7 +149,7 @@
 
 	<issueManagement>
 		<system>Github</system>
-		<url>https://github.com/spring-projects/aws-maven/issues</url>
+		<url>https://github.com/funtip/aws-maven/issues</url>
 	</issueManagement>
 
 	<developers>
@@ -157,6 +157,11 @@
 			<id>nebhale</id>
 			<name>Ben Hale</name>
 			<email>bhale@gopivotal.com</email>
+		</developer>
+		<developer>
+			<id>solonair</id>
+			<name>Simon Oldeboershuis</name>
+			<email>admin@funtip.de</email>
 		</developer>
 	</developers>
 
